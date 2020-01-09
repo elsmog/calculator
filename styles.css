@@ -47,6 +47,7 @@ body {
   flex-direction: row;
   width: 250px;
 }
+
 #sixth-row {
   display: flex;
   flex: 1;
@@ -89,7 +90,6 @@ body {
   border-width: 1px;
   border-right-style: solid;
   border-top-style: solid;
-  
 }
 
 .double-box {
@@ -129,6 +129,26 @@ body {
   border-top-style: solid;
 }
 
-/* border between cells #282828
-border overall #7A797A
-*/
+.btn, .btn-medium, .btn-orange {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.btn:active {
+  background-color: rgb(182, 181, 181);
+}
+
+.btn-medium:active {
+  background-color: #5D5C5C;
+}
+
+.btn-orange:active {
+  background-color: rgb(141, 94, 7) ;
+}
